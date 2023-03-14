@@ -25,7 +25,7 @@ class RobotDispatcherTest {
     void robotShouldClimbOnExceptedStep() {
 
         // Создание реализации RobotDispatcherImpl
-        RobotDispatcher robotDispatcher = new RobotDispatcherImpl();
+        RobotDispatcher robotDispatcher = new RobotDispatcher();
 
         // Создание тестового робота
         RobotImpl robot = new RobotImpl();

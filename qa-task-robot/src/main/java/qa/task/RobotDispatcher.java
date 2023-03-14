@@ -1,17 +1,20 @@
 package qa.task;
 
 /**
- * Реализовать в RobotDispatcherImpl.
- * НЕ МЕНЯТЬ!
+ * В этом классе реализовать метод stepUp.
+ * ДЕЛАТЬ ЗАДАНИЕ ТУТ в методе stepUp.
  */
-public interface RobotDispatcher {
+public class RobotDispatcher {
 
     /**
-     * Необходимо передвинуть робот [Robot robot] до указанной ступени [int stepIndex].
+     * Реализовать метод.
      *
      * @param robot     Robot который будем двигать, заряжать и очищать, чтобы он добрался до нужной ступени.
      * @param stepIndex Индекс ступени до которой необходимо добраться.
-     * @see Robot
      */
-    void stepUp(Robot robot, int stepIndex);
+    public void stepUp(Robot robot, int stepIndex) {
+
+        /* Тут написать свой код реализации на любом языке или в виде блок-схемы или на псевдо-языке */
+
+    }
 }
